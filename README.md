@@ -30,34 +30,19 @@ This is a basic twitter clone using Python.This app enables user to loin their a
 ### Sql Tables
 -----
 * users (all the registered users)
-
-+-------+--------+---------+-----------+
 | id 	| user   | email   | timestamp
-+-------+--------+---------+-----------+
 
 * tweets ( all the tweets of users)
-
-+-------+--------+---------+-----------+
 | id 	| user   | tweet  | timestamp
-+-------+--------+---------+-----------+
 
 * follows (follow user table)
-
-+-------+--------+---------+
 | id 	| user   | follow  |
-+-------+--------+---------+
 
 * Cookie
-
-+-------+--------+---------+-----------+
 | id 	| user   | email   | timestamp
-+-------+--------+---------+-----------+
 
 * auth
-
-+-------+--------+---------+-----------+
 | id 	| user   | email   | timestamp
-+-------+--------+---------+-----------+
 
 ### Login and Register Form
 -----
