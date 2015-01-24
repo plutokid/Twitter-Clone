@@ -81,6 +81,11 @@ select Distinct f.user, u.user from users inner join follows f on (f.user = "'+s
 
 SELECT * from `tweets` ORDER BY timestamp DESC"
 
+### MySql Replication
+-----
+* link : http://www.mysql.com/products/enterprise/replication.html
+
+For the scalability of the System 
 
 
 
