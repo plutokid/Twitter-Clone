@@ -19,10 +19,14 @@ This is a basic twitter clone using Python.This app enables user to loin their a
 
 4.Copy the Content of the folder TwitterClone App into /usr/lib/cgi-bin/
 
-**NOTE**: Tested ON Ubuntu 12.04
-**NOTE**: If not able to run .py file check for python-mysqldb and python-request
+5.Create a dabase name housing and import the sql file from the the sqlFile Folder.  
 
-### 
+6.Go to your browser and run localhost(phpmyadmin and mysql already installed)
+
+**NOTE**: Tested ON Ubuntu 12.04
+
+**NOTE**: If not able to run .py files check for python-mysqldb and python-request
+
 
 
 
