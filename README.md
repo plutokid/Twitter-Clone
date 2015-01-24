@@ -10,6 +10,7 @@ This is a basic twitter clone using Python.This app enables user to loin their a
 -----
 1.Installing Python web environment 
 	link : http://www.programcreek.com/2012/04/python-hello-world-web-application-in-ubuntu/
+	
 2.CGI scripts in Python
 	link : http://raspberrywebserver.com/cgiscripting/writing-cgi-scripts-in-python.html
 
