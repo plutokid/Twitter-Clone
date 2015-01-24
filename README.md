@@ -27,6 +27,19 @@ This is a basic twitter clone using Python.This app enables user to loin their a
 
 **NOTE**: If not able to run .py files check for python-mysqldb and python-request
 
+### Login and Register Form
+-----
+login and register the user 
+
+**NOTE**: don't want to register , use test username and password from the Folder TestUserPass
+
+### User Profile 
+-----
+* Home (showing the tweets of all the user's following people)
+* Profile (showing the login user details(on the left box) and all the tweets of the login user)
+* Following (showing the following users of the current login user)
+* Discover (showing all the tweets)
+
 ### Sql Tables
 -----
 * users (all the registered users) ->
@@ -42,11 +55,11 @@ This is a basic twitter clone using Python.This app enables user to loin their a
 
 * auth
 
-### Login and Register Form
------
-login and register the user 
+### Sql queries 
 
-**NOTE**: don't want to register , use test username and password from the Folder TestUserPass
+
+
+
 
 
 
