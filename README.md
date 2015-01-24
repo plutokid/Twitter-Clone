@@ -17,7 +17,7 @@ This is a basic twitter clone using Python.This app enables user to loin their a
 3.Copy default file from the setup folder to  
 	sudo vi /etc/apache2/sites-available/default
 
-4.Copy the Content of the folder TwitterClone App into /usr/lib/cgi-bin/
+4.Copy the Content of the folder TwitterClone App into folder /usr/lib/cgi-bin/ 
 
 5.Create a dabase name housing and import the sql file from the the sqlFile Folder.  
 
@@ -26,6 +26,14 @@ This is a basic twitter clone using Python.This app enables user to loin their a
 **NOTE**: Tested ON Ubuntu 12.04
 
 **NOTE**: If not able to run .py files check for python-mysqldb and python-request
+
+### Sql Tables
+-----
+* users (all the registered users)
+* tweets ( all the tweets of users)
+* follows (follow user table)
+* Cookie
+* auth
 
 
 
