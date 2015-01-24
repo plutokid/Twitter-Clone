@@ -40,6 +40,8 @@ login and register the user
 * Following (showing the following users of the current login user)
 * Discover (showing all the tweets)
 
+**NOTE**: There is Follow and UnFollow button on the right side of the following user's profile.
+
 ### Sql Tables
 -----
 * users (all the registered users) ->
@@ -56,6 +58,32 @@ login and register the user
 * auth
 
 ### Sql queries 
+
+* Home Page :
+
+select Distinct f.user, u.user, t.tweet, t.timestamp from users inner join follows f on (f.user = "'+str(libh.getUser())+'") inner join users u on (u.user= f.follow) inner join tweets t on (t.user = f.follow) ORDER BY t.timestamp DESC'
+
+str(libh.getUser()) : getting current login user
+
+**NOTE**: getting following user's tweets and showing on the timeline  
+
+* Profile Page : 
+
+SELECT * from `tweets` where `user` = '" + str(user) + "' ORDER BY timestamp DESC"
+
+str(user): current login user
+
+* Following Page : 
+
+select Distinct f.user, u.user from users inner join follows f on (f.user = "'+str(libh.getUser())+'") inner join users u on (u.user= f.follow)'
+
+* Discover Page : 
+
+SELECT * from `tweets` ORDER BY timestamp DESC"
+
+
+
+
 
 
 
