@@ -42,6 +42,15 @@ login and register the user
 
 **NOTE**: There is Follow and UnFollow button on the right side of the following user's profile.
 
+### Demo 
+-----
+	link: https://www.youtube.com/watch?v=gattIdFFwuQ
+
+
+### Main ( py File )
+-----
+	lib_housing.py is the library that contains functions like getUser , save_cookie , regUser etc.
+
 ### Sql Tables
 -----
 * users (all the registered users) ->
@@ -85,7 +94,7 @@ SELECT * from `tweets` ORDER BY timestamp DESC"
 -----
 * link : http://www.mysql.com/products/enterprise/replication.html
 
-For the scalability of the System 
+For the scalability of this System 
 
 
 
