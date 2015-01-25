@@ -155,7 +155,7 @@ def regUser( email, user , passwd ):
 
 
 ####################################################
-############Function to change password#############
+############Function to the change password#############
 ####################################################
 def changePass( user, old_pass, passwd):
 	cur = sql_query('SELECT * FROM `auth` where `user` = "'+str(user)+'"')
