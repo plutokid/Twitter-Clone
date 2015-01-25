@@ -31,7 +31,7 @@ This is a basic twitter clone using Python.This app enables user to loin their a
 -----
 login and register the user 
 
-**NOTE**: don't want to register , use test username and password from the Folder TestUserPass
+**NOTE**: if you don't want to register , use test username and password from the Folder TestUserPass
 
 ### User Profile 
 -----
